@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texts>
+	
+	<!--  GENERAL  -->
+	<!--  =======  -->
+	<term key="ContextMenuItems">jasio1055 studios</term>	<!--  Item de menu contextual customizado (para que no haya menu customizado, borrar esta linea)  -->
+	<term key="frame_label_default">eng</term>
+	<term key="game_title"><![CDATA[<P>CZEMPIONI</P><P>GALAKTYKI</P>]]></term>
+	
+	<!--  CHEAT CODES  -->
+	<!--  ===========  -->
+
+        <term key="codes-alien-Orishan">14</term>
+        <term key="codes-alien-Talpaedan">13</term>
+        <term key="codes-alien-Galilean">12</term>
+        <term key="codes-alien-Kinceleran">11</term>
+        <term key="codes-alien-GeocheloneAerio">10</term>
+        <term key="codes-alien-PelarotaAlburiano">9</term>
+        <term key="codes-alien-Terradino">8</term>
+        <term key="codes-alien-Ectonurite">7</term>
+        <term key="codes-alien-ThepKhufan">6</term>
+        <term key="codes-alien-Gimlinopithecus">5</term>
+        <term key="codes-alien-Segmentasapien">4</term>
+        <term key="codes-alien-Loboan">3</term>
+        <term key="codes-alien-Methanosian">1</term>
+	<term key="codes-alien-Appoplexian">2</term>
+	<term key="codes-alien-Transylian">Bomboclat</term>	
+	<term key="codes-item-Heal_3-10">Leczenie</term>
+	<term key="codes-item-Courage_3-10">Sila</term>
+	<term key="codes-item-Hardness_3-10">Obrona</term>
+	<term key="codes-item-Adrenalin_3-10">Szybkosc</term>
+	<term key="codes-item-Recharge_3-10">Nowosc</term>
+	<term key="codes-item-Purify-10">Efekt</term>
+	<term key="codes-item-Elixir-10">Potki</term>
+	<term key="codes-item-Switch-10">Omnitrix</term>
+	<term key="codes-item-Revive-10">Odrodzenie</term>	
+	<term key="codes-gold-500">Start</term>	
+	<term key="codes-xp-2500">Poziom</term>	
+	
+	<!--  SPLASH  -->
+	<!--  ======  -->
+	
+	<term key="code">KODY</term>
+	<term key="input_code">WPISZ SWOJ KOD</term>	
+	
+	<!-- POPULAR TEXTS -->
+	
+	<term key="strength">SILA</term>
+	<term key="defense">OBRONA</term>
+	<term key="agility">SZYBKOSC</term>
+	<term key="levelLabel">POZ</term>
+	<term key="xpLabel">XP</term>
+	
+	<term key="retry">SPROBUJ PONOWNIE</term>
+	<term key="gotomap">IDZ NA MAPE</term>
+	<term key="accept">AKCEPTUJ</term>
+	<term key="cancel">COFNIJ</term>
+	<term key="loading">LADOWANIE..</term>
+	
+	<!--  BATTLE LOST  -->
+	<!--  ===========  -->
+	
+	<term key="gameLostTitle">NIGER-PRZEGRAL</term>
+	<term key="gameLostDescriptionQuickBattle">SPROBUJ PONOWNIE!</term>	
+	<term key="gameLostDescriptionTournament">WYLATUJESZ Z TURNIEJU!!!</term>	
+	
+	<!--  BATTLE WON  -->
+	<!--  ===========  -->
+	
+	<term key="gameWonTitle">WYGRALES</term>
+	<term key="gameWonDescription">Zdobyte Doswiadczenie</term>	
+	<term key="gameWonLevelUp">Ulepszenie!</term>
+	
+	<!--  BUY CONFIRMATION  -->
+	<!--  ================  -->
+	
+	<term key="buyConfirmationTitleTrainining">TRENING</term>
+	<term key="buyConfirmationTitleShop">KUP</term>	
+	
+	<!--  FIRST ALIEN SELECTION -->
+	<!--  =====================  -->
+	
+	<term key="firstAlienSelectionTitle"><![CDATA[<P>ALIEN</P><P>SELECT</P>]]></term>
+	<term key="firstAlienSelectionDescription">wybierz pierwszego kosmite do gry</term>
+	
+	<!--  FIRST ALIEN CONFIRMATION  -->
+	<!--  ========================  -->
+	
+	<term key="firstAlienConfirmationTitle">WYBRALES</term>
+	
+	<!--  MAP  -->
+	<!--  ===  -->
+	
+	<term key="mapAreaTraining">TRENUJ</term>
+	<term key="mapAreaShop">SKLEP</term>
+	<term key="mapAreaTournament">TURNIEJ</term>
+	<term key="mapAreaQuickBattle">SZYBKA WALKA</term>
+	
+	<!--  MAP REWARD -->
+	<!--  =========  -->
+	
+	<term key="mapRewardTitle">NAGRODA</term>
+	
+	<!--  NEW GAME WARNING -->
+	<!--  ================ -->
+	
+	<term key="newGameTitle">UWAZAJ</term>
+	<term key="newGameDescription"><![CDATA[<P>TWOJ ZAPIS ZOSTANIE ZASTAPIONY NOWYM</P><P>CZY CHCESZ KONTYNUOWAC?</P>]]></term>
+	
+	<!--  NO GOLD WARNING -->
+	<!--  =============== -->
+	
+	<term key="noGoldTitle">POTRZEBUJESZ WIECEJ ZLOTA!</term>
+	<term key="noGoldDescription"><![CDATA[<P>GRAJ W TURNIEJE</P><P>ZEBY ZDOBYC WIECEJ ZLOTA</P>]]></term>
+	
+	<!--  SHOP SCREEN -->
+	<!--  =========== -->
+	
+	<term key="shopTitle">SKLEP</term>
+	<term key="shopItemsTitle">KUP</term>
+	<term key="shopInventoryTitle">EKWIPUNEK</term>
+	
+	<term key="Heal_1ShopDescription">DAJE MALY BUST ZYCIA</term>	
+	<term key="Heal_2ShopDescription">DAJE SREDNI BUST ZYCIA</term>	
+	<term key="Heal_3ShopDescription">DAJE NAJWIEKSZY BUST ZYCIA</term>	
+	<term key="Courage_1ShopDescription">DAJE MALY BUST ATAKU</term>	
+	<term key="Courage_2ShopDescription">DAJE SREDNI BUST ATAKU</term>	
+	<term key="Courage_3ShopDescription">DAJE NAJWIEKSZY BUST ATAKU</term>	
+	<term key="Hardness_1ShopDescription">DAJE MALY BUST OBRONY</term>	
+	<term key="Hardness_2ShopDescription">DAJE SREDNI BUST OBRONY</term>	
+	<term key="Hardness_3ShopDescription">DAJE NAJWIEKSZY BUST OBRONY</term>	
+	<term key="Adrenalin_1ShopDescription">ZWIEKSZA SZYBKOSC MALO</term>	
+	<term key="Adrenalin_2ShopDescription">ZWIEKSZA SZYBKOSC SREDNIO</term>	
+	<term key="Adrenalin_3ShopDescription">ZWIEKSZA SZYBKOSC DUZO</term>	
+	<term key="Recharge_1ShopDescription">DAJE ENERGIE MALO</term>	
+	<term key="Recharge_2ShopDescription">DAJE ENERGIE SREDNIO</term>	
+	<term key="Recharge_3ShopDescription">DAJE ENERGIE DUZO</term>	
+	<term key="ElixirShopDescription">RETRIEVES ENERGY AND MAGIC</term>		
+	
+	
+	<term key="PurifyShopDescription">USUWA ZLE EFEKTY NP. PODPALENIE</term>	
+	<term key="SwitchShopDescription">OMNITRIX POZWALA ZAMIENIC SIE W INNEGO KOSMITE BEZ STRATY KOLEJKI</term>
+	<term key="ReviveShopDescription">ODNAWIA KOSMITE DO ZYCIA</term>
+	
+	<!--  TEAM SCREEN -->
+	<!--  =========== -->
+	
+	<term key="teamScreenTitle">WYBIERZ SWOICH KOSMITOW</term>
+	
+	<!--  TOURNAMENT CARDS SCREEN -->
+	<!--  ======================= -->
+	
+	<term key="cardsScreenTitle">KARTY TURNIEJOW</term>
+	
+	<!--  TRAINING SCREEN -->
+	<!--  =============== -->
+	
+	<term key="trainingDescription">trenuj swoich kosmitow aby zostac najlepszym</term>
+	<term key="trainingTrainstat">TRENING</term>
+	
+	<!--  FIXTURE SCREEN -->
+	<!--  =============== -->
+
+	<term key="fixturePlayer">jasio1055</term>
+	<term key="fixtureTournamentWon"><![CDATA[<P>ZWYCIEZCA!</P>]]></term>
+	
+	<!--  TOURNAMENT SELECTION SCREEN -->
+	<!--  =========================== -->
+
+	<term key="tournamentSubtitle">Wygraj wszystkie turnieje i zostan Czempionem Galaktyki</term>
+	<term key="tournamentWon">JUZ WYGRANY</term>
+	<term key="tournamentRequirement">WYMAGANIE</term>
+	<term key="tournamentRequirements">WYMAGANIA</term>
+	<term key="tournamentReward">NAGRODA</term>
+	<term key="tournamentRewards">NAGRODY</term>
+	
+	
+	<!--  WATCH SELECTION SCREEN -->
+	<!--  ====================== -->
+	
+	<term key="watchSelectionTitle1">TWOJ</term>
+	<term key="watchSelectionTitle2">OMNITRIX</term>
+	<term key="watchSelectionSubtitle">WYBIERZ SWOJ OMNITRIX</term>
+	
+	<!--  MAIN MENU  -->
+	<!--  =========  -->	
+	<term key="splashNewGame">NOWA GRA</term>	
+	<term key="splashContinue">KONTYNUUJ</term>		
+	
+	<!--  HUD  -->
+	<!--  ===  -->
+	
+	<term key="HUDPause">PAUZA</term>
+	
+	<!--  EXIT POPUP  -->
+	<!--  ==========  -->
+	
+	<term key="exit_text">CZY JESTES PEWNY ZE CHCESZ PODDAC WALKE?</term>
+	<term key="exit_no">NIE</term>
+	<term key="exit_yes">TAK-BAMBIK</term>
+	
+	<!--  VERSUS SCREEN  -->
+	<!--  =============  -->
+	
+	<term key="versusFight">WALCZ</term>
+	<term key="versusQuickFight">SZYBKA WALKA</term>
+	
+	<!--  BATTLE HUD  -->
+	<!--  ==========  -->
+	
+	<term key="SkillsDisplayerAttackLabel">ATAK</term>
+	<term key="SkillsDisplayerDefenseLabel">OBRONA</term>
+	<term key="CriticalHit">CIOS KRYTYCZNY!</term>
+	<term key="MissHit">PUDLO!</term>
+		
+	<term key="AliensMenuTitle">WYBIERZ KOSMITE</term>
+	<term key="AliensMenuTitleDefeat">WYBIERZ NASTEPNEGO KOSMITE</term>
+	
+	<term key="ActionsMenuAttack">ATAK</term>
+	<term key="ActionsMenuDefense">OBRONA</term>
+	<term key="ActionsMenuItem">PRZEDMIOT</term>
+	
+	<term key="SwapButtonsTitle">KOSMICI</term>
+	
+	
+	
+	<!--  ALIENS NAMES  -->
+	<!--  ============  -->
+	
+	<term key="InsectoidName">ROCHATYNIK</term>
+	<term key="NosedeenianName">ISKIERKA</term>	
+	<term key="TetramandName">CZTERO REKI</term>
+	<term key="PyroniteName">INFERNO</term>
+	<term key="KinceleranNaman">SZYBCIOR</term>
+	<term key="MethanosianName">SZLAMFIRE</term>
+	<term key="PelarotaAlburianoName">KULOPLOT</term>
+	<term key="AppoplexianName">GNIEW</term>
+	<term key="TalpaedanName">ARMOWIERTLO</term>
+	<term key="OrishanName">WODNY NAHAJ</term>
+	<term key="VaxasaurianoName">GIGANTOZAUR</term>
+	<term key="GeocheloneAerioName">TERRAWIATR</term>
+	<term key="AracnochimpanceName">ARACHNO SZYMAPNS</term>
+	<term key="NecrofriggianoName">ZIAB</term>
+	<term key="GourmandName">ZJADALAK</term>
+	<term key="ConductoidName">FEED BACK</term>
+	<term key="GimlinopithecusName">SHOCKSQUATCH</term>
+	<term key="AerofibioName">JETREY</term>
+	<term key="SegmentasapienName">BLOXX</term>
+	<term key="TerradinoName">Terradino</term>
+	<term key="GalileanName">GRAVATTAK</term>
+	<term key="EctonuriteName">FANTOM</term>
+	<term key="LoboanName">SZYBKOLAK</term>
+	<term key="ThepKhufanName">MUMIA</term>
+	<term key="TransylianName">TRANSYLIAN</term>
+	<term key="SplixsonName">SPLIXSON</term>
+
+	
+	<!--  SKILLS NAMES  -->
+	<!--  ============  -->
+		
+	<!-- Insectoid -->
+	
+	<term key="InsectoidAttack1">PODRAPANIE</term>	
+	<term key="InsectoidAttack2">KULA PLAZMY</term>	
+	<term key="InsectoidAttack3">TRUJACE SZYPCE</term>		
+	
+	<term key="InsectoidDefense1">BLOK</term>	
+	<term key="InsectoidDefense2">PLAZMOWA TARCZA</term>	
+	
+	<!-- Nosedeenian -->
+	
+	<term key="NosedeenianAttack1">CIOS</term>	
+	<term key="NosedeenianAttack2">ELEKTRYCZNA BLYSKAWICA</term>	
+	<term key="NosedeenianAttack3">SONICZNY CIOS</term>
+		
+	<term key="NosedeenianDefense1">BLOK</term>	
+	<term key="NosedeenianDefense2">REGENERACJA</term>		
+	
+	<!-- Tetramand -->
+	
+	<term key="TetramandAttack1">CIOS</term>
+	<term key="TetramandAttack2">WIELOKROTNY CIOS</term>
+	<term key="TetramandAttack3">ZAMRZENIE</term>
+	<term key="TetramandAttack4">FINALNY ATAK</term>
+	
+	<term key="TetramandDefense1">BLOK</term>
+	<term key="TetramandDefense2">FURIA</term>
+	<term key="TetramandDefense3">MUSZLA</term>	
+	
+	<!-- Pyronite -->
+	
+	<term key="PyroniteAttack1">CIOS</term>
+	<term key="PyroniteAttack2">KULA OGNIA</term>
+	<term key="PyroniteAttack3">PLONACA FALA</term>
+	<term key="PyroniteAttack4">CYKLON OGNIA</term>
+	
+	<term key="PyroniteDefense1">BLOK</term>
+	<term key="PyroniteDefense2">ADRENALINA</term>
+	<term key="PyroniteDefense3">SCIANA PLOMIENI</term>	
+	
+	
+	
+	
+	
+	<!-- Vaxasauriano -->
+	
+	<term key="VaxasaurianoAttack1">CIOS</term>
+	<term key="VaxasaurianoAttack2">FALA UDERZENIOWA</term>
+	<term key="VaxasaurianoAttack3">TRZESIENIE ZIEMI</term>
+	<term key="VaxasaurianoAttack4">WZMOCIONA SILA</term>
+	
+	<term key="VaxasaurianoDefense1">BLOK</term>
+	<term key="VaxasaurianoDefense2">RYK</term>
+	<term key="VaxasaurianoDefense3">ZWIEKSZENIE</term>	
+	
+	
+	
+	<!-- Aracnochimpance -->
+	
+	<term key="AracnochimpanceAttack1">CIOS</term>
+	<term key="AracnochimpanceAttack2">PAJECZ SIEC</term>
+	<term key="AracnochimpanceAttack3">ZELAZNE PIESCI</term>	
+	
+	<term key="AracnochimpanceDefense1">BLOK</term>
+	<term key="AracnochimpanceDefense2">SZLACHETNA OBRONA</term>
+	<term key="AracnochimpanceDefense3">OKRZYK WOJENNY</term>
+
+	<!-- PelarotaAlburiano -->
+	
+	<term key="PelarotaAlburianoAttack1">OBROTOWY ATAK</term>
+	<term key="PelarotaAlburianoAttack2">TURBINA</term>
+	<term key="PelarotaAlburianoAttack3">OBROT SMIERCI</term>	
+	
+	<term key="PelarotaAlburianoDefense1">BLOK</term>
+	<term key="PelarotaAlburianoDefense2">SZLACHETNA OBRONA</term>
+	<term key="PelarotaAlburianoDefense3">OKRZYK WOJENNY</term>
+	<term key="PelarotaAlburianoDefense4">CZEMO</term>
+
+	<!-- Necrofriggiano -->
+	
+	<term key="NecrofriggianoAttack1">CIOS</term>
+	<term key="NecrofriggianoAttack2">ZAMACH</term>
+	<term key="NecrofriggianoAttack3">MROZNY LOD</term>
+	<term key="NecrofriggianoAttack4">MROZNE OGNIE</term>
+	
+	<term key="NecrofriggianoDefense1">BLOK</term>
+	<term key="NecrofriggianoDefense2">IMPULS</term>
+	<term key="NecrofriggianoDefense3">NIEWIDZIALNOSC</term>
+	<term key="NecrofriggianoDefense4">LODOWA SCIANA</term>
+	
+	<!-- Gourmand -->
+	
+	<term key="GourmandAttack1">CIOS</term>
+	<term key="GourmandAttack2">POLIZ</term>
+	<term key="GourmandAttack3">ABSROPCJA</term>
+	<term key="GourmandAttack4">KULA ODERZENIOWA</term>
+	
+	<term key="GourmandDefense1">BLOK</term>
+	<term key="GourmandDefense2">TRAWIENIE</term>
+	<term key="GourmandDefense3">ODNOWIENIE</term>	
+	
+	<!-- Conductoid -->
+	
+	<term key="ConductoidAttack1">CIOS</term>
+	<term key="ConductoidAttack2">ABSORPCJA</term>
+	<term key="ConductoidAttack3">ELEKTRYCZNY WYRZUT</term>
+	<term key="ConductoidAttack4">WYRZUT ENERGII</term>
+	
+	<term key="ConductoidDefense1">BLOK</term>
+	<term key="ConductoidDefense2">ODNOWIENIE</term>
+	<term key="ConductoidDefense3">ELEKTRYCZNY KOC</term>	
+	
+	
+	<!-- Transylian -->
+	
+	<term key="TransylianAttack1">CIOS</term>
+	<term key="TransylianAttack2">ELEKTRYCZNE PIESCI</term>
+	<term key="TransylianAttack3">TEKNO-KINEZA</term>
+	
+	<term key="TransylianDefense1">BLOK</term>
+	<term key="TransylianDefense2">FURIA</term>
+	<term key="TransylianDefense3">MAGNETYZM</term>	
+	
+	<!-- Splixson -->
+	
+	<term key="SplixsonAttack1">PODRAPANIE</term>
+	<term key="SplixsonAttack2">KLONOWANIE</term>
+	<term key="SplixsonAttack3">SIEC SENSORYCZNA</term>
+	
+	<term key="SplixsonDefense1">BLOK</term>
+	<term key="SplixsonDefense2">PRZYSPIESZENIE</term>
+	
+	
+	<!--  EFFECTS NAMES  -->
+	
+	<term key="Effect_Heal">LECZENIE</term>
+	<term key="Effect_Poison">ZATRUCIE</term>
+	<term key="Effect_HP_regeneration">Regeneracja</term>
+	<term key="Effect_Purify">Wyczyszczenie efektow</term>
+	<term key="Effect_Recharge">Odnowienie</term>
+	<term key="Effect_Trapped">Uwieziony</term>
+	<term key="Effect_Burn">Podpalenie</term>
+	<term key="Effect_Taunt">Pozbawienie Obrony</term>
+	<term key="Effect_Drain">Odplyw</term>
+	<term key="Effect_Paralyze">Paraliz</term>
+	<term key="Effect_Wipe">Wyczyszczenie</term>
+	
+	<!--  ITEM NAMES  -->	
+
+	<term key="Item_Heal_1_Name">ZWYKLE KOKTAJLE</term>
+	<term key="Item_Heal_2_Name">SPECJALNE KOKTAJLE</term>
+	<term key="Item_Heal_3_Name">ZLOTE KOKTAJLE</term>
+	
+	<term key="Item_Courage_1_Name">SILA TRWOGONOGI</term>
+	<term key="Item_Courage_2_Name">SILA SLAMWORMA</term>
+	<term key="Item_Courage_3_Name">SILA CRABDOZERA</term>
+	
+	<term key="Item_Hardness_1_Name">ZWYKLY PROTO-TECH</term>
+	<term key="Item_Hardness_2_Name">SREBRNY PROTO-TECH</term>
+	<term key="Item_Hardness_3_Name">ZLOTY PROTO-TECH</term>
+	
+	<term key="Item_Adrenalin_1_Name">SZYBKOSC RANCHULI</term>
+	<term key="Item_Adrenalin_2_Name">SZYBKOSC BUGLIZARDA </term>
+	<term key="Item_Adrenalin_3_Name">SZYBKOSC PANUNCIANA</term>
+	
+	<term key="Item_Recharge_1_Name">ZWYKLY CORRODIUM</term>
+	<term key="Item_Recharge_2_Name">PODWOJNY CORRODIUM</term>
+	<term key="Item_Recharge_3_Name">POTROJNY CORRODIUM</term>
+	
+	<term key="Item_Purify_Name">OGNIOWA FASOLKA</term>
+	
+	<term key="Item_Elixir_Name">ELIXIR HOKESTAR</term>
+	
+	<term key="Item_Invulnerability_Name">INVULNERABILITY</term>
+	
+	<term key="Item_Bonusxp_Name">Dodatkowy XP</term>
+	<term key="Item_Bonusgold_Name">Dodatkowe Zloto</term>
+	
+	<term key="Item_SwitchE_Name">Proto-tech</term>
+	<term key="Item_Switch_Name">OMNITRIX</term>
+	
+	<term key="Item_Revive_Name">KWIAT ENERGII</term>
+	<term key="Item_Doubleaction_Name">GALVAN-TEC</term>
+	
+	<!--  TOURNAMENT NAMES  -->	
+	
+	<term key="Tournament1_Name">TURNIEJ PEPTOS XI</term>
+	<term key="Tournament2_Name">TURNIEJ ARACNA</term>
+	<term key="Tournament3_Name">TURNIEJ TRANSYL</term>
+	<term key="Tournament4_Name">TURNIEJ METHANOS</term>
+	<term key="Tournament5_Name">TURNIEJ MYKDL'DY</term>
+	<term key="Tournament6_Name">TURNIEJ TERMINUS III</term>
+	<term key="Tournament7_Name">TURNIEJ ANODYNE</term>	
+	<term key="Tournament8_Name">TURNIEJ VILGAXIA</term>
+	<term key="Tournament9_Name">TURNIEJ ZJADALAK</term>
+        <term key="Tournament10_Name">TURNIEJ MILOSZA</term>
+
+	<!--  WATCHES NAMES  -->	
+	
+	<term key="Watch1Name">Zly Czerwony</term>
+	<term key="Watch2Name">Zly Fioletowy</term>
+	<term key="Watch3Name">Zly Zolty</term>
+	<term key="Watch4Name">Zly Niebieski</term>
+	
+	<term key="Watch5Name">Czerwony</term>
+	<term key="Watch6Name">Fioletowy</term>
+	<term key="Watch7Name">Zolty</term>
+	<term key="Watch8Name">Niebieski</term>
+	
+	<!--  <term key="Watch1Name">evil rot</term> -->
+	<!-- <term key="Watch2Name">evil purple</term> -->
+	<!-- <term key="Watch3Name">evil yellow</term> -->
+	<!-- <term key="Watch4Name">evil blue</term> -->
+	
+	<!-- <term key="Watch5Name">rot</term> -->
+	<!-- <term key="Watch6Name">purple</term> -->
+	<!-- <term key="Watch7Name">yellow</term> -->
+	<!-- <term key="Watch8Name">blue</term> -->
+	
+	<!--  CARDS NAMES  -->	
+	
+	<term key="Card1Name">ZJADALAK</term>
+	<term key="Card2Name">ARACHNO SZYMPANS</term>
+	<term key="Card3Name">TRANSYLIAN</term>
+	<term key="Card4Name">HEAT BLAST</term>
+	
+	<term key="Card5Name">ZIAB</term>	
+	<term key="Card6Name">CZTERO REKI</term>
+	<term key="Card7Name">FEED BACK</term>	
+	<term key="Card8Name">GIGANTOZAUR</term>
+
+	<!-- TUTORIAL TEXTS -->
+	
+	<term key="TutorialStepIntroText">WITAJ W CZEMPIONACH GALAKTYKI GRZE Z 2015!</term>	
+	<term key="TutorialStepWatchText">WYBIERZ SWOJ OMNITRIX</term>	
+	<term key="TutorialStepAlienText">DOBRY WYBOR, TERAZ CZAS NA PIERWSZEGO KOSMITE </term>
+	<term key="TutorialStepFightText">CZY JESTES GOTOWY NA SWOJA PIERWSZA WALKE!</term>	
+	<term key="TutorialStepTrainingText"> TRENUJ SWOICH KOSMITOW ABY BYLI LEPSZI</term>
+	<term key="TutorialStepTournamentText">ZAWALCZ W SWOIM PIERWSZYM TURNIEJU!</term>
+	<term key="TutorialStepCongratulationsText">GRATULACJE WYGRALES SWOJ PIERWSZY TURNIEJ!</term>
+	<term key="TutorialStepCongratulations2Text">TERAZ JESTES GOTOWY NA SWOJA WLASNA PRZYGODE</term>	
+	
+	
+</texts>
