@@ -22,7 +22,7 @@
 	<term key="game_height">550</term>
 	<term key="load_level_assets">true</term>
 	<term key="show_hud">true</term>
-	<term key="skip_menu_intro">true</term>
+	<term key="skip_menu_intro">false</term>
 	
 	<!--  BADGES  -->
 	<!--  ======  -->
