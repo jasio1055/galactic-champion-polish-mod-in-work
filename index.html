@@ -2,10 +2,11 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Czempioni Galaktyki - Mod od jasio1055</title>
+    <title>Galactic Champion - Jasio Edition</title>
     <style>
+        /* Tło i centrowanie wszystkiego na stronie */
         body {
-            background-color: #000000; /* Twoje czarne tło */
+            background-color: #000000;
             color: white;
             font-family: Arial, sans-serif;
             display: flex;
@@ -15,22 +16,35 @@
             min-height: 100vh;
             margin: 0;
         }
+
+        /* Twoje wielkie okno na grę */
         #game-container {
             width: 1000px;
             height: 750px;
-            border: 2px solid #333;
+            border: 3px solid #333; /* Trochę grubsza ramka */
+            background-color: #050505;
+            box-shadow: 0 0 20px rgba(0,255,0,0.1); /* Delikatna zielona poświata w stylu Bena 10 */
         }
-        h1 { margin-bottom: 10px; }
-        p { color: #888; font-size: 14px; }
+
+        /* MAGIA: To sprawia, że gra zawsze wypełnia całe 1000x750 */
+        ruffle-player {
+            width: 100% !important;
+            height: 100% !important;
+            display: block;
+        }
+
+        h1 { margin-bottom: 15px; font-size: 24px; text-transform: uppercase; }
+        p { color: #666; font-size: 14px; margin-top: 10px; }
     </style>
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 </head>
 <body>
 
     <h1>POCZEKAJ... MOJA WŁASNA WERSJA SIĘ ŁADUJE!</h1>
-    <p>(Pamiętaj: pierwsze ładowanie trwa długo, kolejne sekundy!)</p>
 
     <div id="game-container"></div>
+
+    <p>Jeśli gra stoi na 0%, Twój internet (2667 B/s) właśnie walczy o życie. Daj mu chwilę!</p>
 
     <script>
         window.RufflePlayer = window.RufflePlayer || {};
@@ -38,7 +52,9 @@
             "autoplay": "on",
             "unmuteOverlay": "hidden",
             "letterbox": "on",
-            "warnOnUnsupportedContent": false
+            "warnOnUnsupportedContent": false,
+            "forceScale": true, // Dodatkowe wymuszenie skalowania
+            "quality": "high"
         };
 
         window.addEventListener("load", (event) => {
@@ -47,10 +63,4 @@
             const container = document.getElementById("game-container");
             container.appendChild(player);
             player.load({
-                url: "game.swf",
-                allowScriptAccess: true,
-            });
-        });
-    </script>
-</body>
-</html>
+                url: "game.swf
