@@ -1,19 +1,56 @@
-<script>
-    window.RufflePlayer = window.RufflePlayer || {};
-    window.RufflePlayer.config = {
-        "autoplay": "on",
-        "unmuteOverlay": "hidden",
-        "letterbox": "on",
-        "warnOnUnsupportedContent": false
-    };
-    window.addEventListener("load", (event) => {
-        const ruffle = window.RufflePlayer.newest();
-        const player = ruffle.createPlayer();
-        const container = document.getElementById("game-container");
-        container.appendChild(player);
-        player.load({
-            url: "game.swf",
-            allowScriptAccess: true,
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Czempioni Galaktyki - Mod od jasio1055</title>
+    <style>
+        body {
+            background-color: #000000; /* Twoje czarne tło */
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        #game-container {
+            width: 800px;
+            height: 600px;
+            border: 2px solid #333;
+        }
+        h1 { margin-bottom: 10px; }
+        p { color: #888; font-size: 14px; }
+    </style>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+</head>
+<body>
+
+    <h1>POCZEKAJ... MOJA WŁASNA WERSJA SIĘ ŁADUJE!</h1>
+    <p>(Pamiętaj: pierwsze ładowanie trwa długo, kolejne sekundy!)</p>
+
+    <div id="game-container"></div>
+
+    <script>
+        window.RufflePlayer = window.RufflePlayer || {};
+        window.RufflePlayer.config = {
+            "autoplay": "on",
+            "unmuteOverlay": "hidden",
+            "letterbox": "on",
+            "warnOnUnsupportedContent": false
+        };
+
+        window.addEventListener("load", (event) => {
+            const ruffle = window.RufflePlayer.newest();
+            const player = ruffle.createPlayer();
+            const container = document.getElementById("game-container");
+            container.appendChild(player);
+            player.load({
+                url: "game.swf",
+                allowScriptAccess: true,
+            });
         });
-    });
-</script>
+    </script>
+</body>
+</html>
