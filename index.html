@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" type="image/png" href="favicon.png">
-    
-    <title>Czempioni Galatyki - jasio1055</title>
+    <title>Czempioni Galaktyki - jasio1055</title>
     <style>
         body {
             background-color: #000;
@@ -17,24 +16,27 @@
             min-height: 100vh;
             margin: 0;
         }
-        /* Pudełko na grę */
         #game-container {
             width: 1000px;
             height: 750px;
-            border: 2px solid #444;
+            border: 2px solid #00ff00; /* Zmieniłem obramowanie też na zielone! */
         }
-        /* Prosta prośba do Ruffle: bądź duży */
         ruffle-player {
             width: 1000px !important;
             height: 750px !important;
         }
-        h1 { margin-bottom: 10px; font-size: 20px; }
+        h1 { 
+            margin-bottom: 10px; 
+            font-size: 20px; 
+            color: #00ff00; 
+            text-shadow: 0 0 8px rgba(0, 255, 0, 0.6);
+        }
     </style>
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 </head>
 <body>
 
-    <h1>Stworzone przez jasio1055 i gemini poczekaj 25 sekund gra się załaduje</h1>
+    <h1>Stworzone przez jasio1055 i gemini - poczekaj 25 sekund, gra się załaduje</h1>
 
     <div id="game-container"></div>
 
