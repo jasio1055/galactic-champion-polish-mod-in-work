@@ -12,25 +12,70 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
-            min-height: 100vh;
+            padding-top: 20px; /* Zmieniłem z justify-content, żeby lista się nie ucinała */
             margin: 0;
         }
         #game-container {
             width: 1000px;
             height: 750px;
-            border: 2px solid #00ff00; /* Zmieniłem obramowanie też na zielone! */
+            border: 2px solid #00ff00;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
         }
         ruffle-player {
             width: 1000px !important;
             height: 750px !important;
         }
         h1 { 
-            margin-bottom: 10px; 
+            margin-bottom: 15px; 
             font-size: 20px; 
             color: #00ff00; 
             text-shadow: 0 0 8px rgba(0, 255, 0, 0.6);
         }
+
+        /* STYL PRZYCISKU */
+        .collapsible {
+            background-color: #111;
+            color: #00ff00;
+            cursor: pointer;
+            padding: 15px;
+            width: 1000px;
+            border: 2px solid #00ff00;
+            text-align: center;
+            outline: none;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+        .active, .collapsible:hover {
+            background-color: #003300;
+            box-shadow: 0 0 10px #00ff00;
+        }
+
+        /* STYL LISTY */
+        .content {
+            padding: 0 18px;
+            display: none;
+            background-color: #000;
+            width: 964px; /* Dopasowanie do ramki gry */
+            border: 2px solid #00ff00;
+            border-top: none;
+            margin-bottom: 50px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #222;
+            padding: 10px;
+            text-align: center;
+        }
+        th { color: #00ff00; text-transform: uppercase; }
+        .alien-thumb { width: 80px; height: auto; }
+        .code { color: #00ff00; font-family: monospace; font-weight: bold; background: #111; padding: 2px 5px; }
     </style>
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 </head>
@@ -40,7 +85,74 @@
 
     <div id="game-container"></div>
 
+    <button type="button" class="collapsible">LISTA KOSMITÓW I KODY</button>
+    <div class="content">
+      <table>
+        <tr>
+          <th>Wygląd</th>
+          <th>Nazwa (PL)</th>
+          <th>Sposób zdobycia</th>
+        </tr>
+        <tr>
+          <td><img src="inferno.png" alt="Inferno" class="alien-thumb"></td>
+          <td>Inferno</td>
+          <td>Dostępny od początku</td>
+        </tr>
+        <tr>
+          <td><img src="gigantozaur.png" alt="Gigantozaur" class="alien-thumb"></td>
+          <td>Gigantozaur</td>
+          <td>Wpisz kod: <span class="code">Bomboclat</span></td>
+        </tr>
+        <tr>
+          <td><img src="ziab.png" alt="Ziąb" class="alien-thumb"></td>
+          <td>Ziąb</td>
+          <td>Odblokuj w kampanii</td>
+        </tr>
+        <tr>
+          <td><img src="feedback.png" alt="Feedback" class="alien-thumb"></td>
+          <td>Feedback</td>
+          <td>Dostępny od początku</td>
+        </tr>
+        <tr>
+          <td><img src="iskierka.png" alt="Iskierka" class="alien-thumb"></td>
+          <td>Iskierka (Bateria)</td>
+          <td>Wpisz kod: <span class="code">KOD_ISKIERKA</span></td>
+        </tr>
+        <tr>
+          <td><img src="transylian.png" alt="Transylian" class="alien-thumb"></td>
+          <td>Transylian</td>
+          <td>Dostępny od początku</td>
+        </tr>
+        <tr>
+          <td><img src="mumia.png" alt="Mumia" class="alien-thumb"></td>
+          <td>Mumia</td>
+          <td>Specjalne wyzwanie</td>
+        </tr>
+        <tr>
+          <td><img src="arachnoszympans.png" alt="Arachnoszympans" class="alien-thumb"></td>
+          <td>Arachnoszympans</td>
+          <td>Dostępny od początku</td>
+        </tr>
+        <tr>
+          <td><img src="rochatynik.png" alt="Rochatynik" class="alien-thumb"></td>
+          <td>Rochatynik</td>
+          <td>Wpisz kod: <span class="code">KOD_ROCHATYNIK</span></td>
+        </tr>
+        <tr>
+          <td><img src="zjadalak.png" alt="Zjadalak" class="alien-thumb"></td>
+          <td>Zjadalak</td>
+          <td>Dostępny od początku</td>
+        </tr>
+        <tr>
+          <td><img src="czteroreki.png" alt="Czteroręki" class="alien-thumb"></td>
+          <td>Czteroręki</td>
+          <td>Dostępny od początku</td>
+        </tr>
+      </table>
+    </div>
+
     <script>
+        // Ładowanie gry
         window.RufflePlayer = window.RufflePlayer || {};
         window.addEventListener("load", (event) => {
             const ruffle = window.RufflePlayer.newest();
@@ -49,6 +161,16 @@
             container.appendChild(player);
             player.load("game.swf");
         });
+
+        // Obsługa przycisku
+        var coll = document.getElementsByClassName("collapsible");
+        for (var i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            content.style.display = (content.style.display === "block") ? "none" : "block";
+          });
+        }
     </script>
 </body>
 </html>
