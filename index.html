@@ -49,3 +49,125 @@
             background-color: #003300;
             box-shadow: 0 0 10px #00ff00;
         }
+        .content {
+            padding: 0 18px;
+            display: none;
+            background-color: #000;
+            width: 964px;
+            border: 2px solid #00ff00;
+            border-top: none;
+            margin-bottom: 50px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #222;
+            padding: 10px;
+            text-align: center;
+        }
+        th { color: #00ff00; text-transform: uppercase; }
+        .alien-thumb { width: 80px; height: auto; }
+        .code { color: #00ff00; font-family: monospace; font-weight: bold; background: #111; padding: 2px 5px; }
+    </style>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+</head>
+<body>
+
+    <h1>Stworzone przez jasio1055 i gemini - poczekaj 25 sekund, gra się załaduje</h1>
+
+    <div id="game-container"></div>
+
+    <button type="button" class="collapsible">LISTA KOSMITÓW I KODY</button>
+    <div class="content">
+      <table>
+        <tr>
+          <th>Wygląd</th>
+          <th>Nazwa (PL)</th>
+          <th>Sposób zdobycia</th>
+        </tr>
+        <tr>
+          <td><img src="inferno.png" alt="Inferno" class="alien-thumb"></td>
+          <td>Inferno</td>
+          <td>Zakup w sklepie</td>
+        </tr>
+        <tr>
+          <td><img src="gigantozaur.png" alt="Gigantozaur" class="alien-thumb"></td>
+          <td>Gigantozaur</td>
+          <td>Zakup w sklepie</td>
+        </tr>
+        <tr>
+          <td><img src="ziab.png" alt="Ziąb" class="alien-thumb"></td>
+          <td>Ziąb</td>
+          <td>Nagroda za przejście turnieju o nazwie "MYKDL'DL"</td>
+        </tr>
+        <tr>
+          <td><img src="feedback.png" alt="Feedback" class="alien-thumb"></td>
+          <td>Feedback</td>
+          <td>Nagroda za przejście turnieju o nazwie "ANODYNE"</td>
+        </tr>
+        <tr>
+          <td><img src="iskierka.png" alt="Iskierka" class="alien-thumb"></td>
+          <td>Iskierka</td>
+          <td>Opcja do wyboru na pierwszego kosmitę lub zakup w sklepie</td>
+        </tr>
+        <tr>
+          <td><img src="transylian.png" alt="Transylian" class="alien-thumb"></td>
+          <td>Transylian</td>
+          <td>Wpisz kod: <span class="code">Bomboclat</span></td>
+        </tr>
+        <tr>
+          <td><img src="mumia.png" alt="Mumia" class="alien-thumb"></td>
+          <td>Mumia</td>
+          <td>Wpisz kod: <span class="code">6</span></td>
+        </tr>
+        <tr>
+          <td><img src="arachnoszympans.png" alt="Arachnoszympans" class="alien-thumb"></td>
+          <td>Arachnoszympans</td>
+          <td>Zakup w sklepie</td>
+        </tr>
+        <tr>
+          <td><img src="rochatynik.png" alt="Rochatynik" class="alien-thumb"></td>
+          <td>Rochatynik</td>
+          <td>Opcja do wyboru na pierwszego kosmitę lub zakup w sklepie</td>
+        </tr>
+        <tr>
+          <td><img src="zjadalak.png" alt="Zjadalak" class="alien-thumb"></td>
+          <td>Zjadalak</td>
+          <td>Nagroda za przejście turnieju o nazwie "PEPTOS XI"</td>
+        </tr>
+        <tr>
+          <td><img src="czteroreki.png" alt="Czteroręki" class="alien-thumb"></td>
+          <td>Czteroręki</td>
+          <td>Nagroda za przejście turnieju o nazwie "TERMINUS III"</td>
+        </tr>
+      </table>
+    </div>
+
+    <script>
+        window.RufflePlayer = window.RufflePlayer || {};
+        window.addEventListener("load", (event) => {
+            const ruffle = window.RufflePlayer.newest();
+            const player = ruffle.createPlayer();
+            const container = document.getElementById("game-container");
+            container.appendChild(player);
+            player.load("game.swf");
+        });
+
+        var coll = document.getElementsByClassName("collapsible");
+        for (var i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+    </script>
+</body>
+</html>
