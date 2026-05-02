@@ -2338,7 +2338,7 @@
 			"level_req":3,
 			"alien_req":"none",
 			
-			"reward_gold":250,
+			"reward_gold":150,
 			"reward_xp":60,
 			"reward_item":"Heal_2",
 			"reward_alien":"none",			
@@ -2404,7 +2404,7 @@
 			"level_req":7,
 			"alien_req":"none",
 			
-			"reward_gold":1250,
+			"reward_gold":500,
 			"reward_xp":140,
 			"reward_item":"Elixir",			
 			"reward_alien":"Pyronite",			
@@ -2441,7 +2441,7 @@
 			"level_req":10,
 			"alien_req":"none",
 			
-			"reward_gold":1750,
+			"reward_gold":700,
 			"reward_xp":800,
 			"reward_item":"none",			
 			"reward_alien":"Necrofriggiano",			
@@ -2478,7 +2478,7 @@
 			"level_req":13,
 			"alien_req":"none",
 			
-			"reward_gold":3500,
+			"reward_gold":1400,
 			"reward_xp":1000,
 			"reward_item":"Elixir",			
 			"reward_alien":"Tetramand",			
@@ -2518,7 +2518,7 @@
 			"level_req":16,
 			"alien_req":"none",
 			
-			"reward_gold":5600,
+			"reward_gold":2000,
 			"reward_xp":1500,
 			"reward_item":"Revive",			
 			"reward_alien":"Conductoid",			
@@ -2561,7 +2561,7 @@
 			"level_req":20,
 			"alien_req":"none",
 			
-			"reward_gold":11000,
+			"reward_gold":5000,
 			"reward_xp":4000,
 			"reward_item":"none",
 			"reward_alien":"none",			
@@ -2603,7 +2603,7 @@
 			"level_req":30,
 			"alien_req":"none",
 			
-			"reward_gold":20000,
+			"reward_gold":7500,
 			"reward_item":"Revive",
 			"reward_alien":"none",			
 			"reward_xp":10055,
@@ -2645,7 +2645,7 @@
 			"level_req":47,
 			"alien_req":"none",
 			
-			"reward_gold":18800,
+			"reward_gold":8800,
 			"reward_xp":17000,
 			"reward_item":"none",
 			"reward_alien":"none",			
